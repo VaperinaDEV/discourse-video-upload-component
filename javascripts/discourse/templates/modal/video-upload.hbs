@@ -15,8 +15,8 @@
                 <option value="private">{{theme-i18n 'details.scope.private'}}</option>
             </select>
         {{/if}}
-        <label for=video-title">{{theme-i18n 'details.title'}}</label> {{input type="text" id="video-title" placeholder="Video Title" }}
-        <label for=video-scope">{{theme-i18n 'details.description'}}</label> {{input type="text" id="video-description" placeholder="Video Description" }}
+        <label for=video-title">{{theme-i18n 'details.title'}}</label> {{input type="text" id="video-title" placeholder="Video Címe" }}
+        <label for=video-scope">{{theme-i18n 'details.description'}}</label> {{input type="text" id="video-description" placeholder="Video Leírása" }}
     </div>
 
     <div class="video-upload-status">
@@ -33,7 +33,7 @@
             <span style="color: red">{{theme-i18n 'status.error.transcode'}}</span>
         {{/if}}
         {{#if uploadError}}
-            <span style="color: red">{{theme-i18n 'status.error.upload'}}: {{{uploadError}}}</span>
+            <span style="color: red">{{theme-i18n 'status.error.upload'}} <br> {{{uploadError}}}</span>
         {{/if}}
     </div>
 
