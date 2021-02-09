@@ -1,21 +1,21 @@
 en:
   upload:
-    video: "Upload a video"
-    vimeo: "Upload to Vimeo"
-    youtube: "Upload to YouTube"
+    video: "Videófeltöltés"
+    vimeo: "Feltöltés Vimeora"
+    youtube: "Feltöltés YouTubera"
   status:
-    uploading: "Uploading"
-    transcoding: "Transcoding video"
-    authenticating: "Authenticating"
+    uploading: "Feltöltés"
+    transcoding: "Videó feldolgozása"
+    authenticating: "Hitelesítés"
     error:
-      transcode: "Error transcoding video"
-      upload: "Error uploading video"
+      transcode: "Hiba a videó feldolgozása közben"
+      upload: "Hiba a videó feltöltése közben. Feltehetően elértük a heti maximálisan feltölthető limitet. Kérlek, próbálkozz újra később!"
   details:
-    title: "Title"
-    description: "Description"
-    privacy: "Privacy level"
-    privacy-note: "Only applies for YouTube uploads. Uploads to Vimeo will be visible to"
+    title: "Cím"
+    description: "Leírás"
+    privacy: "Adatvédelmi szint"
+    privacy-note: "Csak a YouTube feltöltések engedélyezettek. Vimeo feltöltések továbbra is láthatóak maradnak."
     scope:
-      unlisted: "Unlisted"
-      private: "Private"
-      public: "Public"
+      unlisted: "Listázatlan"
+      private: "Privát"
+      public: "Nyilvános"
