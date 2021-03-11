@@ -225,7 +225,7 @@ export default Ember.Controller.extend(ModalFunctionality, {
             uploadInst.transcodeStatus(function (status) {
                 if (status === 'in_progress') return ;
                 clearInterval(interval);
-                component.set('isProcessing', true);
+                component.set('isProcessing', false);
                 $("#vimeo-upload-btn").removeAttr('disabled');
                 if (status === 'error') component.set('processingError', true);
                 else if (status === 'complete') {
