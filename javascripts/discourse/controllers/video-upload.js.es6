@@ -1,7 +1,7 @@
 import { getOwner } from "discourse-common/lib/get-owner";
 import ModalFunctionality from "discourse/mixins/modal-functionality";
 
-const STATUS_POLLING_INTERVAL_MILLIS = 10000;
+const STATUS_POLLING_INTERVAL_MILLIS = 60000;
 
 export default Ember.Controller.extend(ModalFunctionality, {
     uploadProgress: 0,
